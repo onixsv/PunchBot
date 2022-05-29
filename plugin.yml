@@ -1,0 +1,14 @@
+name: PunchBot
+author: alvin0319
+main: PunchBot\PunchBot
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  펀치봇:
+    description: 펀치봇 명령어
+    permission: punchbot.command.use
+
+permissions:
+  punchbot.command.use:
+    default: op
